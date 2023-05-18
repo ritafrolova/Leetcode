@@ -7,5 +7,6 @@ def addDigits(num):
             sum+=num%10
             num=num//10
         return sum
+    
 print(addDigits(38))    
 
