@@ -1,5 +1,5 @@
-def mySqrt(x):
-    from math import sqrt
+from math import sqrt
 
+def mySqrt(x):
     return int(sqrt(x))
 print(mySqrt(4))
